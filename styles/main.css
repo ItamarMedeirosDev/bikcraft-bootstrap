@@ -1,0 +1,152 @@
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+  background-color: #222222;
+}
+
+#cabecalho .nav .nav-link.active{
+  background-color: #ffbb01;
+  color: #222222;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+  color: #ffffff;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+}
+.navbar-toggler{
+  background-color: #ffeae6;
+}
+.carousel,
+.carousel-item img{
+  max-height: 500px;
+  object-fit: cover;
+  
+} 
+.section-title{
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+span{
+  color: #ffbb01;
+}
+
+#bicicleta-intro{
+  max-width:400px;
+  width: auto;
+  object-fit: cover;
+   
+}
+.texto-cinza{
+  color: #7e7e7e;
+}
+
+#button-escolha,#button-enviar{
+  color: #463300;
+  background-color: #ffbb01;
+
+}
+#button-escolha:hover,
+#button-enviar:hover{
+  background-color: #f5bb1c;
+  
+}
+
+.intro-bg{
+  box-shadow: inset 0px -80px #ffffff;
+}
+
+#sobre,
+#bicicleta{
+  background-color: #222222;
+}
+
+.texto-laranja{
+  color: #ffbb01;
+}
+
+.nav-cardapio .nav-link.active{
+  background-color: #ffbb01;
+  color: #ffffff;
+}
+.nav-cardapio .nav-link:hover{
+  color: #f5bb1c;
+}
+.nav-cardapio .nav-link.active:hover{
+  color: #ffffff;
+  background-color:#ffbb01;
+}
+.social-links li{
+  list-style: none;
+  
+  
+}
+.social-links{
+  display: flex;
+  gap: 20px;
+}
+.texto-branco{
+  color: #ffffff !important;
+}
+
+
+@media (max-width:1000px){
+  .carousel-item img{
+    height: 280px;
+  }
+  #cardapio img{
+    
+    margin-top: 20px;
+  }
+  .intro-bg{
+    box-shadow: none;
+    padding-bottom: 80px;
+  }
+  aside{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:600px){
+  h2{
+    font-size: 2rem !important;
+  }
+  .intro-bg{    
+    padding-bottom: 40px;
+  }
+
+}
+
+.fs-10{
+  font-size: 4rem;
+  line-height: 1;
+}
+.fs-8{
+  font-size: 3rem;
+}
+.tech{
+  max-height: 400px;
+  object-fit: cover;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.tech:hover{
+  max-height: 405px;
+
+}
+footer{
+  background-color: #222222;
+  padding: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #f5bb1c;
+  font-weight: bold;
+}
